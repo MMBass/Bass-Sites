@@ -13,10 +13,25 @@
 
 <body>
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="#"> | </a>
-        <a href="#">Wordpress Plugins</a>
+        <button class="openbtn" onclick="openNav()"> ☰ </button>  
         <h1>BassSites</h1>
+        <div id="WIDE_MENU">
+            <a href="./index.html">Home</a>
+            <a href="#"> | </a>
+            
+            <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
+        </div>
+
+        <div id="BASS_SIDEBAR" class="sidebar">
+            <div class="white-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <p id="SIDE_HEADER">BassSites</p>
+                <a href="./index.html">Home</a>       
+                <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
+            </div>
+            <div class="light-cover"></div>
+            
+        </div>
     </nav>
 
     <div id="MAIN_DIV">
@@ -24,7 +39,7 @@
             <p>Site in building!</p>
          </div>
 
-        <h2>Wordpress Theme Color Plugin</h2>
+        <h2>Wordpress address bar color plugin</h2>
         <h3>paint the top address bar of a selected page, you can choose every page different color.</h3>
 
         <div id="BUTTONS_AREA">
@@ -34,6 +49,8 @@
        
     </div>
 
+    <script src="top-menu.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

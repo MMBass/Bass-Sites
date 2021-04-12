@@ -27,30 +27,39 @@ body, html{
     background: linear-gradient(165deg, rgba(30,105,205,1) 50%, rgba(239,242,239,1) 50%);
 }
 
+#BASS_SIDEBAR {
+  display: none;
+}
+
 nav{
   padding-bottom: 5px;;
-  height: 20px;
+  height: 30px;
   background-color: #fff;
   color: #757575;
 }
 
-nav a{
-  margin-right: 5px;
+#WIDE_MENU {
   float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+
+a{
   text-decoration: none;
 }
 
-h1{
+h1, #SIDE_HEADER{
+    display: inline;
+    /* top: 0;
+    bottom: 10px; */
     color: #757575;
+    float: left;
 }
 
 h2, h3{
    margin: 15%;
    color: #fff; 
-}
-
-h3{
-
 }
 
 .banner{
@@ -70,25 +79,6 @@ h3{
     color: white;
 }
 
-#BUTTONS_AREA a{
-  text-align: center;
-  text-decoration: none;
-  display: block;
-}
-
-.down-button{
-    margin: auto;
-    width: 60%;
-    background-color: #fff;
-    border: none;
-    color: rgb(30,105,205);
-    padding: 10px;
-
-    font-size: 16px;
-    font-weight: 600px;
-    border-radius: 12px;
-}
-
 #WP_LINK{
    margin-top: 10px;
    color: #fff;
@@ -96,4 +86,91 @@ h3{
 
 #WP_LINK:hover{
     color: #2e2e2e;
+}
+
+.sidebar {
+  height: 100%;
+  /* width: 100%; */
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.2s;
+}
+
+.sidebar a {
+  /* padding: 8px 8px 8px 32px; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #666666;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #c5c5c5;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 36px;
+  /* margin: 10px, 0, 0, 10px; */
+}
+
+.openbtn {
+  float: left;
+  font-size: 30px;
+  cursor: pointer;
+  color: #000;
+  border: none;
+  background-color:#fff;
+}
+
+.white-menu{
+  height: 100%;
+  width: 75%;
+}
+
+.light-cover{
+  height: 100%;
+  width: 25%;
+  background-color: rgba(185, 185, 185, 0.733);
+}
+
+#SIDE_HEADER{
+   font-size: 25px;
+   font-weight: 600;
+}
+
+@media only screen and (min-width: 600px) {
+  .openbtn , #BASS_SIDEBAR {
+    display: none;
+  }
+
+  #WIDE_MENU {
+    display: block;
+  }
+
+  #MAIN_DIV{
+    background: rgb(30,105,205);
+    background: linear-gradient(165deg, rgba(30,105,205,1) 80%, rgba(239,242,239,1) 20%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #WIDE_MENU {
+    display: none;
+  }
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 600px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }

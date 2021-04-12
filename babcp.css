@@ -1,0 +1,18 @@
+#BUTTONS_AREA a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.down-button{
+    margin: auto;
+    width: 60%;
+    background-color: #fff;
+    border: none;
+    color: rgb(30,105,205);
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 12px;
+}
