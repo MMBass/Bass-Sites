@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chrome, Samsung internet -->
+    <meta name="theme-color" content="#0063B1">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0063B1">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0063B1">
+    <meta name="theme-color" content="#0063B1">
+
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="basssites.css">
@@ -11,12 +19,25 @@
 </head>
 <body>
     <nav>
-        <a href="#">Home</a>
-        <a href="#"> | </a>
-        <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
+        <button class="openbtn" onclick="openNav()"> ☰ </button>  
         <h1>BassSites</h1>
-        <h2></h2>
-        
+        <div id="WIDE_MENU">
+            <a href="#">Home</a>
+            <a href="#"> | </a>
+            
+            <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
+        </div>
+
+        <div id="BASS_SIDEBAR" class="sidebar">
+            <div class="white-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <p id="SIDE_HEADER">BassSites</p>
+                <a href="#">Home</a>       
+                <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
+            </div>
+            <div class="light-cover"></div>
+            
+        </div>
     </nav>
     
     <div id="MAIN_DIV">
@@ -27,5 +48,8 @@
         <h2>Web developers</h2>
         <h3>we are building web apps, wordpress websites, wordpress plugins and a lot more.</h3>
     </div>
+
+    <script src="index.js"></script>
+    <script src="top-menu.js"></script>
 </body>
 </html>
