@@ -42,7 +42,12 @@ nav{
   float: right;
   margin-top: 10px;
   margin-right: 10px;
+}
 
+#WIDE_MENU a{
+  color: #757575;;
+  margin-right: 20px;
+  font-weight: 600;
 }
 
 a{
@@ -50,11 +55,20 @@ a{
 }
 
 h1, #SIDE_HEADER{
-    display: inline;
-    /* top: 0;
-    bottom: 10px; */
-    color: #757575;
-    float: left;
+  font-size: 30px;
+  position: absolute;
+  left: 40px;
+  top: -13px;
+  color: #757575;
+  font-weight: 600;
+}
+
+#SIDE_HEADER{
+  top: -18px;
+}
+
+h1{
+   margin-bottom: 20px;
 }
 
 h2, h3{
@@ -90,23 +104,19 @@ h2, h3{
 
 .sidebar {
   height: 100%;
-  /* width: 100%; */
   position: fixed;
+  display: inline;
   z-index: 3000;
   top: 0;
   left: 0;
-  background-color: #fff;
   overflow-x: hidden;
   transition: 0.2s;
 }
 
 .sidebar a {
-  /* padding: 8px 8px 8px 32px; */
   text-decoration: none;
-  font-size: 25px;
   color: #666666;
   display: block;
-  transition: 0.3s;
 }
 
 .sidebar a:hover {
@@ -116,9 +126,8 @@ h2, h3{
 .sidebar .closebtn {
   position: absolute;
   top: 10px;
-  left: 20px;
-  font-size: 36px;
-  /* margin: 10px, 0, 0, 10px; */
+  left: 10px;
+  font-size: 40px;
 }
 
 .openbtn {
@@ -131,19 +140,45 @@ h2, h3{
 }
 
 .white-menu{
+  float: left;
+  background-color: #fff;
   height: 100%;
   width: 75%;
 }
 
 .light-cover{
+  float: right;
   height: 100%;
   width: 25%;
-  background-color: rgba(185, 185, 185, 0.733);
+  background-color: rgba(194, 194, 194, 0.541);
 }
 
-#SIDE_HEADER{
-   font-size: 25px;
-   font-weight: 600;
+#SIDE_LINKS{
+  top: 50px;
+  text-align: left;
+  position: relative;
+}
+
+#SIDE_LINKS a{
+  width: 100%;
+  font-size: 19px;
+  color: rgb(17, 17, 17);
+  font-weight: 600;
+  margin-top: 10px;
+  border-bottom: 1px solid #b5b6b9;
+}
+
+/* #SIDE_LINKS a :hover{
+  background-color: #c7c7c7;
+} */
+
+#SIDE_LINKS a span{
+    margin-left: 10px;
+}
+
+#SIDE_LINKS a .arrow_span{
+  float: right;
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 600px) {
