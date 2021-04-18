@@ -1,4 +1,5 @@
 body, html{
+    /* background-color: #1e69cd;s */
     font: 400 16px/24px;
     font-style: normal;
     font-variant-ligatures: normal;
@@ -204,8 +205,33 @@ h2, h3{
 
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+footer nav{
+  /* display: inline; */
+  /* float: left; */
+  /* width: 100%; */
+ text-align: left;
+}
+
+footer h3{
+ /* float: left; */
+}
+
+footer ul{
+  float: left;
+  /* flex-direction: row; */
+  /* display: inline; */
+ text-align: left;
+}
+
+footer h3{
+  color: black;
+}
+
+footer li{
+  list-style-type: none;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (maller font size) */
 @media screen and (max-height: 600px) {
-  .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
