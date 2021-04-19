@@ -1,5 +1,5 @@
 body, html{
-    /* background-color: #1e69cd;s */
+    background-color: #1e69cd;
     font: 400 16px/24px;
     font-style: normal;
     font-variant-ligatures: normal;
@@ -32,9 +32,8 @@ body, html{
   display: none;
 }
 
-nav{
-  padding-bottom: 5px;;
-  height: 30px;
+#TOP_NAV{
+  height: 50px;
   background-color: #fff;
   color: #757575;
 }
@@ -64,10 +63,6 @@ h1, #SIDE_HEADER{
   font-weight: 600;
 }
 
-#SIDE_HEADER{
-  top: -18px;
-}
-
 h1{
    margin-bottom: 20px;
 }
@@ -85,6 +80,7 @@ h2, h3{
 }
 
 .banner p{
+  margin: 0;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -169,9 +165,9 @@ h2, h3{
   border-bottom: 1px solid #b5b6b9;
 }
 
-/* #SIDE_LINKS a :hover{
+#SIDE_LINKS a:hover{
   background-color: #c7c7c7;
-} */
+}
 
 #SIDE_LINKS a span{
     margin-left: 10px;
@@ -180,6 +176,33 @@ h2, h3{
 #SIDE_LINKS a .arrow_span{
   float: right;
   margin-right: 10px;
+}
+
+footer{
+  height: 140px;
+  background-color: #ffffff;
+}
+
+footer div{
+ margin: 20px;
+ width: 180px;
+ text-align: left;
+ float: left;
+}
+
+footer h3{
+  margin: 0;
+  width: 100%;
+  color: black;
+}
+
+footer li{
+  list-style-type: none;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (maller font size) */
+@media screen and (max-height: 600px) {
+  .sidebar a {font-size: 18px;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -203,35 +226,4 @@ h2, h3{
     display: none;
   }
 
-}
-
-footer nav{
-  /* display: inline; */
-  /* float: left; */
-  /* width: 100%; */
- text-align: left;
-}
-
-footer h3{
- /* float: left; */
-}
-
-footer ul{
-  float: left;
-  /* flex-direction: row; */
-  /* display: inline; */
- text-align: left;
-}
-
-footer h3{
-  color: black;
-}
-
-footer li{
-  list-style-type: none;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (maller font size) */
-@media screen and (max-height: 600px) {
-  .sidebar a {font-size: 18px;}
 }
