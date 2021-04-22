@@ -9,12 +9,12 @@ body, html{
     font-weight: 400;
     font-stretch: normal;
     font-size: 16px;
-    line-height: 24px;
     font-family: Roboto, sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     height: 100%;
     margin: 0;
+    /* line-height: 24px; */
 
     text-align: center;
 
@@ -26,6 +26,7 @@ body, html{
     height: 100%;
     background: rgb(30,105,205);
     background: linear-gradient(165deg, rgba(30,105,205,1) 50%, rgba(239,242,239,1) 50%);
+    text-align: left;
 }
 
 #BASS_SIDEBAR {
@@ -68,7 +69,6 @@ h1{
 }
 
 h2, h3{
-   margin: 15%;
    color: #fff; 
 }
 
@@ -88,6 +88,17 @@ h2, h3{
 .banner-dark{
     background-color: #202124;
     color: white;
+}
+
+#MAIN_H_TWO{
+ margin-top: 100px;
+ margin-left: 40px;
+ font-size: 52px;
+}
+
+#MAIN_H_THREE{
+  margin-left: 40px;
+  font-size: 24px;
 }
 
 #WP_LINK{
@@ -179,7 +190,7 @@ h2, h3{
 }
 
 footer{
-  height: 140px;
+  height: inherit;
   background-color: #ffffff;
 }
 
@@ -221,6 +232,21 @@ footer li{
 }
 
 @media only screen and (max-width: 600px) {
+
+  #MAIN_DIV{
+    text-align: center;
+  }
+
+  #MAIN_H_TWO{
+    margin-top: 75px;
+    margin-left: 0;
+    font-size: 30px;
+   }
+   
+   #MAIN_H_THREE{
+     margin-left: 0;
+     font-size: 18px;
+   }
 
   #WIDE_MENU {
     display: none;
