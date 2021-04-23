@@ -34,15 +34,19 @@ body, html{
 }
 
 #TOP_NAV{
-  height: 50px;
+  /* height: 50px; */
   background-color: #fff;
   color: #757575;
+  overflow: hidden;
+  padding: 20px 0;
 }
 
-#WIDE_MENU {
+#TOP_NAV *{
+  float: left;
+}
+
+#WIDE_MENU{
   float: right;
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 #WIDE_MENU a{
@@ -55,7 +59,7 @@ a{
   text-decoration: none;
 }
 
-h1, #SIDE_HEADER{
+#SIDE_HEADER{
   font-size: 30px;
   position: absolute;
   left: 40px;
@@ -65,7 +69,8 @@ h1, #SIDE_HEADER{
 }
 
 h1{
-   margin-bottom: 20px;
+  margin: 0;
+  margin-left: 10px;
 }
 
 h2, h3{
@@ -190,7 +195,7 @@ h2, h3{
 }
 
 footer{
-  height: inherit;
+  height: 400px;
   background-color: #ffffff;
 }
 
@@ -250,6 +255,10 @@ footer li{
 
   #WIDE_MENU {
     display: none;
+  }
+
+  #TOP_NAV{
+    padding: 0;
   }
 
 }

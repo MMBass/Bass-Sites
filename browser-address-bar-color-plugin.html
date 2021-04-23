@@ -1,69 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Chrome, Samsung internet -->
+    <meta name="theme-color" content="#0063B1">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#0063B1">
+
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0063B1">
+
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="basssites.css">
     <link rel="stylesheet" href="babcp.css">
-
-     <!-- Chrome, Samsung internet -->
-     <meta name="theme-color" content="#0063B1">
-     <!-- Windows Phone -->
-     <meta name="msapplication-navbutton-color" content="#0063B1">
- 
-     <!-- iOS Safari -->
-     <meta name="apple-mobile-web-app-capable" content="yes">
-     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-     <meta name="theme-color" content="#0063B1">
-     
 </head>
-
 <body>
-    <nav>
+    <nav id="TOP_NAV">
         <button class="openbtn" onclick="openNav()"> ☰ </button>  
         <h1>BassSites</h1>
         <div id="WIDE_MENU">
             <a href="./index.html">Home</a>
-            
             <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
         </div>
-
-        <div id="BASS_SIDEBAR" class="sidebar">
-            <div class="white-menu">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <p id="SIDE_HEADER">BassSites</p>
-                <div id="SIDE_LINKS">
-                    <a href="./index.html">Home</a>       
-                    <a href="./browser-address-bar-color-plugin.html">Wordpress Plugins</a>
-                </div>
-               
-            </div>
-            <div class="light-cover"></div>
-            
-        </div>
     </nav>
-
+    
+    <nav id="BASS_SIDEBAR" class="sidebar">
+        <div class="white-menu">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <p id="SIDE_HEADER">BassSites</p>
+            <div id="SIDE_LINKS">
+              <a href="./index.html"><span>Home</span><span class="arrow_span">-></span></a>       
+              <a href="./browser-address-bar-color-plugin.html"><span>Wordpress Plugins</span><span class="arrow_span">-></span></a> 
+            </div>
+        </div>
+        <div class="light-cover"></div>
+    </nav>
+    
     <div id="MAIN_DIV">
         <div class="banner banner-dark">
             <p>Site in building!</p>
-         </div>
-
-        <h2>Wordpress address bar color plugin</h2>
-        <h3>paint the top address bar of a selected page, you can choose every page different color.</h3>
-
-        <div id="BUTTONS_AREA">
-            <a class="down-button" href="https://downloads.wordpress.org/plugin/browser-address-bar-color.1.0.zip">Download Plugin</a>
-            <a id="WP_LINK" href="https://wordpress.org/plugins/browser-address-bar-color/">See page in wordpress.org</a>
         </div>
-       
+
+        <h2 id="MAIN_H_TWO">Wordpress address bar color plugin</h2>
+        <h3 id="MAIN_H_THREE">paint the top address bar of a selected page, <br> you can choose every page different color.</h3>
+
+        
+        <div id="BUTTONS_AREA">
+        <a class="down-button" href="https://downloads.wordpress.org/plugin/browser-address-bar-color.1.0.zip">Download Plugin</a>
+        <a id="WP_LINK" href="https://wordpress.org/plugins/browser-address-bar-color/">See page in wordpress.org</a>
+        </div>
     </div>
 
-    <script src="top-menu.js"></script>
-    <script src="index.js"></script>
-</body>
+    <footer>
+        <nav>
+            <div>
+                <h3>Stay connected</h3>
+                     <li><a href="https://github.com/MMBass">Github</a></li>
+                     <li><a href="https://il.linkedin.com/in/mendi-bass-223a7a124">Likedin</a></li>
+                     <li><a href="https://profiles.wordpress.org/mendibass">Wordpress</a> </li>
+                 </ul> 
+            </div>
 
+            <div>
+                <h3>Contact info</h3>
+                    <li>+972546433166</li>
+                    <li>+13477700054</li>
+                    <li>Bass.Sites.Dev@gmail.com</li>
+                    <li>Jerusalem, israel</li>
+                </ul>
+            </div>    
+
+        </nav>
+
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="top-menu.js"></script>
+</body>
 </html>
