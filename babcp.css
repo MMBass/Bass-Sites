@@ -1,6 +1,6 @@
 #BUTTONS_AREA a{
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: block;
 }
 
@@ -19,4 +19,30 @@
 
 #MAIN_DIV{
     text-align: center;
+}
+
+.wp-links{
+    margin-top: 10px;
+    color: #1967d2;
+}
+ 
+.wp-links:hover{
+    color: #2e2e2e;
+}
+
+#WP_PLUGINS_LINK{
+   text-decoration: underline;
+   color: rgb(211, 211, 211);
+   margin-bottom: 20px;
+}
+
+#WP_PLUGINS_LINK:hover{
+    color: #636363;
+}
+
+
+.white-cards .down-button{
+    width: 50%;
+    background-color: #1967d2;
+    color: #ffffff;
 }

@@ -17,8 +17,12 @@ body, html{
     /* line-height: 24px; */
 
     text-align: center;
+}
 
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 #MAIN_DIV{
@@ -38,7 +42,7 @@ body, html{
   background-color: #fff;
   color: #757575;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 #TOP_NAV *{
@@ -49,14 +53,32 @@ body, html{
   float: right;
 }
 
+a{
+  text-decoration: none;
+}
+
 #WIDE_MENU a{
   color: #757575;;
   margin-right: 20px;
   font-weight: 600;
+  margin-top: 7px;
 }
 
-a{
-  text-decoration: none;
+#LANGS_SELECT{
+  margin: 0;
+  margin-right: 20px;
+  max-width: 124px;
+  border: 1px solid #d1d2d3;
+  border-radius: 5px;
+  color: #202124;
+  cursor: pointer;
+  height: 36px;
+  line-height: 34px;
+  min-width: 72px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 25px 0 5px;
+  text-overflow: ellipsis;
 }
 
 #SIDE_HEADER{
@@ -71,6 +93,7 @@ a{
 h1{
   margin: 0;
   margin-left: 10px;
+  margin-top: 2px;
 }
 
 h2, h3{
@@ -104,15 +127,6 @@ h2, h3{
 #MAIN_H_THREE{
   margin-left: 40px;
   font-size: 24px;
-}
-
-#WP_LINK{
-   margin-top: 10px;
-   color: #fff;
-}
-
-#WP_LINK:hover{
-    color: #2e2e2e;
 }
 
 .sidebar {
@@ -194,6 +208,26 @@ h2, h3{
   margin-right: 10px;
 }
 
+.white-cards{
+  background-color: #ffffff;
+  color: #424242;
+  width: 90%;
+  min-height: 200px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+  text-align: center;
+  margin: auto;
+  border-radius: 16px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.white-cards .card-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
 footer{
   height: 400px;
   background-color: #ffffff;
@@ -259,6 +293,10 @@ footer li{
 
   #TOP_NAV{
     padding: 0;
+  }
+
+  h1{
+    margin-top: 8px;
   }
 
 }
