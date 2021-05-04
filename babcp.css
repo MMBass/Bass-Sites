@@ -1,17 +1,14 @@
 #BUTTONS_AREA a{
     text-align: center;
-    /* text-decoration: none; */
     display: block;
 }
 
 .down-button{
-    margin: auto;
-    width: 60%;
-    background-color: #fff;
+    background-color: #1967d2;
+    color: #ffffff;
+    width: 100%;
     border: none;
-    color: rgb(30,105,205);
     padding: 10px;
-
     font-size: 16px;
     font-weight: 600px;
     border-radius: 12px;
@@ -22,7 +19,6 @@
 }
 
 .wp-links{
-    margin-top: 10px;
     color: #1967d2;
 }
  
@@ -40,9 +36,8 @@
     color: #636363;
 }
 
-
-.white-cards .down-button{
-    width: 50%;
-    background-color: #1967d2;
-    color: #ffffff;
+#WP_PLUGIN_VISIT{
+  position: relative;
+  top: 20px;
+  bottom: 20px;
 }

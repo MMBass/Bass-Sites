@@ -26,10 +26,10 @@ body, html{
 }
 
 #MAIN_DIV{
-    min-height: 1200px;
+    min-height: 800px;
     height: 100%;
     background: rgb(30,105,205);
-    background: linear-gradient(165deg, rgba(30,105,205,1) 50%, rgba(239,242,239,1) 50%);
+    background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
     text-align: left;
 }
 
@@ -218,7 +218,7 @@ h2, h3{
   margin: auto;
   border-radius: 16px;
   padding-top: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .white-cards .card-logo{
@@ -266,7 +266,7 @@ footer li{
 
   #MAIN_DIV{
     background: rgb(30,105,205);
-    background: linear-gradient(165deg, rgba(30,105,205,1) 80%, rgba(239,242,239,1) 20%);
+    background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
   }
 }
 
