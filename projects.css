@@ -1,0 +1,64 @@
+body{
+    background-color: #eb3f24;
+}
+
+#MAIN_DIV{
+    background: #eb3f24;
+    background: linear-gradient(165deg, #eb3f24 70%, rgba(239,242,239,1) 30%);
+}
+
+.white-cards{
+  width: 85%;
+}
+
+.card-logo{
+    min-width: 100%;
+    min-height: 160px;
+    transition: .2s ease;
+    backface-visibility: hidden;
+    background-color: cadetblue;
+}
+
+.card-logo:hover{
+    opacity: 0.5;
+}
+  
+.flex-cards .single-flex-div{
+    min-width: 250px;
+    max-width: 250;
+}
+
+.flex-cards .single-flex-div a{
+    color: rgb(38, 38, 186);
+}
+
+#CLOSED_PROGR{
+    color: #eb3f24;
+}
+
+@media only screen and (max-width: 600px) {
+    .white-cards{
+        width: unset;
+    }
+
+    .flex-cards{
+      display: block;
+      text-align: center;
+    }
+  
+    .flex-cards .single-flex-div{
+      text-align: center;
+      max-width: 100%;
+      padding: 30px;
+      border-bottom: 1px solid rgba(168, 166, 166, 0.662);
+      border-radius: 0;
+      box-shadow:none;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+    .card-logo{
+        min-height: 130px;
+    }
+
+  
+  }
