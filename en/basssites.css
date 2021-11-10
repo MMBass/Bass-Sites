@@ -1,5 +1,4 @@
 body, html{
-    direction: rtl;
     background-color: #1e69cd;
     font: 400 16px/24px;
     font-style: normal;
@@ -10,12 +9,13 @@ body, html{
     font-weight: 400;
     font-stretch: normal;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    font-family: 'Assistant', sans-serif;
+    font-family: Roboto, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     height: 100%;
     margin: 0;
+    /* line-height: 24px; */
+
     text-align: center;
 }
 
@@ -31,7 +31,7 @@ body, html{
     padding-bottom: 80px;
     background: rgb(30,105,205);
     background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
-    text-align: right;
+    text-align: left;
 }
 
 #BASS_SIDEBAR {
@@ -39,11 +39,13 @@ body, html{
 }
 
 #TOP_NAV{
+  /* height: 50px; */
   background-color: #fff;
   color: #757575;
   overflow: hidden;
   padding: 10px 0;
-  box-shadow: 0px 2px 11px 2px rgba(62, 62, 62, 0.5); 
+  -webkit-box-shadow: 0px 2px 11px 2px rgba(62, 62, 62, 0.5); 
+  /* box-shadow: 0px 9px 17px 5px rgba(0,0,0,0.5); */
   position: sticky;
   top: 0;
 }
@@ -58,7 +60,6 @@ body, html{
 
 a{
   text-decoration: none;
-  color: #fff;
 }
 
 #WIDE_MENU a{
@@ -69,6 +70,7 @@ a{
 }
 
 #LANGS_SELECT{
+  margin: 0;
   margin-right: 20px;
   max-width: 124px;
   border: 1px solid #d1d2d3;
@@ -80,7 +82,7 @@ a{
   min-width: 72px;
   outline: 0;
   overflow: hidden;
-  padding: 0 5px 0 25px;
+  padding: 0 25px 0 5px;
   text-overflow: ellipsis;
 }
 
@@ -94,7 +96,6 @@ a{
 }
 
 h1{
-  font-family: 'Roboto', Helvetica, sans-serif;
   margin: 0;
   margin-left: 10px;
   margin-top: 2px;
@@ -102,11 +103,6 @@ h1{
 
 h2, h3{
    color: #fff; 
-}
-
-h4{
-  color: rgb(59, 59, 59);
-  font-size: 30px;
 }
 
 .banner{
@@ -119,66 +115,24 @@ h4{
 
 .banner p{
   margin: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .banner-dark{
-  background-color: #202124;
-  color: white;
+    background-color: #202124;
+    color: white;
 }
 
 #MAIN_H_TWO{
  margin-top: 100px;
- margin-right: 40px;
+ margin-left: 40px;
  font-size: 52px;
 }
 
 #MAIN_H_THREE{
-  margin-right: 40px;
+  margin-left: 40px;
   font-size: 24px;
-}
-
-.flex-line{
-  color: #fff;
-  text-decoration: none;
-  margin-right: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 480px;
-}
-
-.flex-line .what-btn{
-  text-align: center;
-  background-color: #fff;
-  color: #1967d2;
-  min-width: 100px;
-  border: none;
-  padding: 6px 40px 6px 40px;
-  font-weight: 600px;
-  border-radius: 12px;
-}
-
-.flex-line a{
-  margin: auto;
-  min-width: 100px;
-  text-align: center;
-}
-
-.flex-line span{
-  font-size: 25px;
-  margin: auto;
-  text-align: center;
-}
-
-
-.flex-line a:hover{
-  background-color: rgba(110, 110, 110, 0.425);
-  border-radius: 5px;
 }
 
 .sidebar {
@@ -252,7 +206,7 @@ h4{
 }
 
 #SIDE_LINKS a span{
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #SIDE_LINKS a .arrow_span{
@@ -269,13 +223,10 @@ h4{
   text-align: center;
   margin: auto;
   border-radius: 16px;
-  padding: 80px 40px 80px 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin-top: 50px;
   margin-bottom: 80px;
-}
-
-#TECHS_CARD, #PROJECTS_CARD{
-   width: 95%;
 }
 
 .white-cards .card-logo{
@@ -283,62 +234,22 @@ h4{
     height: 100px;
     border-radius: 16px;
     box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-    margin-bottom: 40px;
-}
-
-.flex-cards{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;;
-  gap: 35px 20px;
-  width: 100%;
-  height: 80%;
-}
-
-.flex-cards .single-flex-div{
-  background-color: #F8F9FA;
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 80%;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-}
-
-#PROJECTS_CARD{
-  padding-top: 40px;
-}
-
-#PROJECTS_CARD .card-logo{
-  margin-bottom: 40px;
 }
 
 .inner-btn{
+  display: block;
   background-color: #1967d2;
   color: #ffffff;
-  width: 100%;
+  width: 40%;
   border: none;
-  padding: 12px 16px 12px 16px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 16px;
   font-weight: 600px;
   border-radius: 12px;
 }
 
-.inner-btn:hover{
-  background-color: #3b81e3;
-  padding: 14px 18px 14px 18px;
-}
-
-#BUTTONS_AREA a{
-  text-align: center;
-  display: block;
-}
-
 footer{
-  display: block;
-  overflow: auto;
-  padding-bottom: 100px;
+  height: 400px;
   background-color: #ffffff;
 }
 
@@ -346,12 +257,12 @@ footer div{
  margin: 20px;
  margin-right: 60px;
  width: 180px;
- text-align: right;
- float: right;
+ text-align: left;
+ float: left;
 }
 
 footer h3{
-  font-weight: 600;
+  font-weight: 800;
   margin: 3px;
   width: 100%;
   color: black;
@@ -366,10 +277,6 @@ footer li{
   list-style-type: none;
   font-size: 15px;
   letter-spacing: 0.5px;
-}
-
-footer li a{
-  color: rgb(95, 95, 95);
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (maller font size) */
@@ -402,62 +309,29 @@ footer li a{
 
   #MAIN_DIV{
     text-align: center;
-    padding: 20px;
   }
 
   #MAIN_H_TWO{
     margin-top: 75px;
-    margin-right: 0;
+    margin-left: 0;
     font-size: 30px;
-  }
-  
-  #MAIN_H_THREE{
-    margin-right: 0;
-    font-size: 18px;
-  }
+   }
+   
+   #MAIN_H_THREE{
+     margin-left: 0;
+     font-size: 18px;
+   }
 
   #WIDE_MENU {
     display: none;
   }
 
   #TOP_NAV{
-    padding: 5px;
+    padding: 0;
   }
 
   h1{
     margin-top: 8px;
-  }
-
-  .flex-cards{
-    display: block;
-    text-align: center;
-  }
-
-  .flex-cards .single-tech-div{
-    text-align: center;
-    max-width: 100%;
-    padding: 30px;
-    border-bottom: 1px solid rgba(168, 166, 166, 0.662);
-    border-radius: 0;
-    box-shadow: none;
-    background-color: #fff;
-  }
-
-  .flex-line{
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    width: unset;
-  }
-  .flex-line span{
-    display: none;
-  }
-
-  .flex-line a{
-    width: 80%;
-    margin-bottom: 20px;
   }
 
 }
