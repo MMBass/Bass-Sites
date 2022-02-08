@@ -1,0 +1,54 @@
+body{
+    direction: rtl;
+    background-color: #E75802;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+#BUTTONS_AREA a{
+    text-align: center;
+    display: block;
+}
+
+.down-button{
+    background-color: #1967d2;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 12px;
+}
+
+#MAIN_DIV{
+    direction: ltr; /* TODO change in He*/
+    height: fit-content;
+    padding-bottom: 80px;
+    text-align: center;
+    background: #E75802;
+    background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
+}
+
+.wp-links{
+    color: #1967d2;
+}
+ 
+.wp-links:hover{
+    color: #2e2e2e;
+}
+
+#WP_PLUGINS_LINK{
+   text-decoration: underline;
+   color: rgb(211, 211, 211);
+   margin-bottom: 20px;
+}
+
+#WP_PLUGINS_LINK:hover{
+    color: #636363;
+}
+
+#WP_PLUGIN_VISIT{
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+}
