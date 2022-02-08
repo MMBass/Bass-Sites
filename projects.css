@@ -3,7 +3,7 @@ body{
 }
 
 #MAIN_DIV{
-    padding-top: -20px;
+    padding-top: -80px;
     background: #ff6e6e;
     background: linear-gradient(165deg, #ff6e6e 70%, rgba(239,242,239,1) 30%);
 }
