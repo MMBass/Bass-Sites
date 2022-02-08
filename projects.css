@@ -4,6 +4,7 @@ body{
 
 #MAIN_DIV{
     background: #7670C6;
+    
     background: linear-gradient(165deg, #7670C6 70%, rgba(239,242,239,1) 30%);
 }
 
