@@ -444,7 +444,7 @@ footer li a{
     background-color: #1967d2;
     text-align: center;
     max-width: 100%;
-    padding: 30px;
+    /* padding: 30px; */
     border-bottom: 1px solid rgba(168, 166, 166, 0.662);
     border-radius: 0;
     box-shadow: none;
