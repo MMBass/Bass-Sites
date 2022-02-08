@@ -24,8 +24,7 @@ body{
 }
   
 .flex-cards .single-flex-div{
-    min-width: 270px;
-    max-width: 250;
+    min-width: 250px;
 }
 
 .flex-cards .single-flex-div a{
