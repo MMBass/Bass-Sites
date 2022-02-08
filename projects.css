@@ -1,19 +1,20 @@
 body{
-    background-color: #ff6e6e;
+    background-color: #7670C6;
 }
 
 #MAIN_DIV{
-    padding-top: -80px;
-    background: #ff6e6e;
-    background: linear-gradient(165deg, #ff6e6e 70%, rgba(239,242,239,1) 30%);
+    background: #7670C6;
+    background: linear-gradient(165deg, #7670C6 70%, rgba(239,242,239,1) 30%);
 }
 
 .white-cards{
   width: 85%;
+  padding: 1px 40px 80px 40px;
 }
 
-.card-logo{
-    min-width: 100%;
+.white-cards .card-logo{
+    max-width: 210px;
+    width: 210px;
     min-height: 140px;
     transition: .2s ease;
     backface-visibility: hidden;
@@ -25,7 +26,8 @@ body{
 }
   
 .flex-cards .single-flex-div{
-    min-width: 250px;
+    min-width: 270px;
+    max-width: 250;
 }
 
 .flex-cards .single-flex-div a{
@@ -42,7 +44,6 @@ body{
     }
 
     .flex-cards{
-      padding-top:0px;
       display: block;
       text-align: center;
     }
