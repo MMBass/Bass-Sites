@@ -8,6 +8,10 @@ body{
     display: block;
 }
 
+#BUTTONS_AREA{
+    margin-bottom: 100px;
+}
+
 .down-button{
     background-color: #1967d2;
     color: #ffffff;
@@ -49,4 +53,12 @@ body{
   position: relative;
   top: 20px;
   bottom: 20px;
+}
+
+
+#BG_IMG{
+    background: url(./images/bg-img-wp.png);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: -10px top;
 }

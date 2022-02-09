@@ -29,8 +29,7 @@ body, html{
     min-height: 800px;
     height: fit-content;
     padding-bottom: 80px;
-    background: rgb(30,105,205);
-    background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
+    background: url(https://firebase.google.com/images/homepage/hero-illo_2x.png) linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
     text-align: right;
 }
 
@@ -309,7 +308,8 @@ h4{
 }
 
 #PROJECTS_CARD{
-  padding-top: 40px;
+  margin-top: 160px;
+  padding-top: 40;
 }
 
 #PROJECTS_CARD .card-logo{
@@ -398,6 +398,13 @@ footer li a{
     background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
   }
 
+  #BG_IMG{
+    background: url(./images/bg-img-home.png);
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+    background-position: -150px top;
+  }
+
   .white-cards{
     background-color: #ffffff;
     color: #424242;
@@ -470,4 +477,10 @@ footer li a{
     margin-bottom: 20px;
   }
 
+  #BG_IMG{
+    background: url(./images/bg-img-home.png);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    background-position: center 190px;
+  }
 }

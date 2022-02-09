@@ -52,3 +52,10 @@ body{
   top: 20px;
   bottom: 20px;
 }
+
+#BG_IMG{
+    background: url(./images/bg-img-wp.png);
+    background-repeat: no-repeat;
+    background-size: 900px 700px;
+    background-position: -150px top;
+  }
