@@ -4,9 +4,24 @@ body{
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
+#MAIN_H_TWO{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 52px;
+}
+
+#MAIN_H_THREE{
+    margin-left: 80px;
+    font-size: 24px;
+}
+
 #BUTTONS_AREA a{
-    text-align: center;
+    margin-left: 332px;
+    text-align: left;
     display: block;
+    font-size: 18px;
+    margin-top: 50px;
+    color: #fff;
 }
 
 .down-button{
@@ -24,7 +39,7 @@ body{
     direction: ltr; /* TODO change in He*/
     height: fit-content;
     padding-bottom: 80px;
-    text-align: center;
+    text-align: left;
     background: #E75802;
     background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
 }
@@ -58,4 +73,35 @@ body{
     background-repeat: no-repeat;
     background-size: 900px 700px;
     background-position: -150px top;
-  }
+}
+
+@media only screen and (max-width: 600px) {
+    #MAIN_H_TWO{
+        margin-top: 35px;
+        margin-left: unset;
+        padding: 0px 0px 0px 20px;
+        font-size: 30px;
+    }
+    
+    #MAIN_H_THREE{
+        margin-left: unset;
+        padding: 0px 30% 0px 20px;
+        font-size: 18px;
+    }
+    
+    #BUTTONS_AREA a{
+        text-align: center;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 170px;
+        margin-left: unset;
+        color: #fff;
+    }
+
+    #BG_IMG{
+        background: url(./images/bg-img-wp.png);
+        background-repeat: no-repeat;
+        background-size: 400px 300px;
+        background-position: center 225px;
+      }
+}
