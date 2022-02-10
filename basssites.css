@@ -176,7 +176,6 @@ h4{
   text-align: center;
 }
 
-
 .flex-line a:hover{
   background-color: rgba(110, 110, 110, 0.425);
   border-radius: 5px;
@@ -263,6 +262,7 @@ h4{
 
 .white-cards{
   background-color: #ffffff;
+  position: relative;
   color: #424242;
   width: 90%;
   min-height: 200px;
@@ -287,12 +287,55 @@ h4{
     margin-bottom: 40px;
 }
 
-
-.white-cards .card-footer{
+.flex-cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 35px 20px;
   width: 100%;
-  height: 100px;
-  background-color: #b5b6b9;
+  height: 80%;
+  margin-bottom: 30px;
+}
+
+.flex-cards .single-flex-div{
+  position: relative;
+  background-color: #F8F9FA;
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 80%;
+  padding: 30px;
+  padding-bottom: 49px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.card-footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 60px;
+
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  height: 55px;
+  background-color: #ececec;
   margin-bottom: 0px;
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+}
+
+.single-flex-div .card-footer{
+  column-gap: 15px;
+  height: 40px;
+}
+
+.techs-card-header{
+  display: none;
 }
 
 .white-cards .gray-logo{
@@ -301,33 +344,15 @@ h4{
   -o-filter: grayscale(80%);
   -ms-filter: grayscale(80%);
   filter: grayscale(80%);
-  width: 20px;
-  height: 20px;
+  width: 23px;
+  height: 23px;
   border-radius: 25%;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-  margin-bottom: 40px;
+  margin: unset;
+  padding: unset;
   display: inline;
 }
 
-.flex-cards{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;;
-  gap: 35px 20px;
-  width: 100%;
-  height: 80%;
-}
-
-.flex-cards .single-flex-div{
-  background-color: #F8F9FA;
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 80%;
-  padding: 30px;
-  border-radius: 20px;
-  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
-}
 
 #PROJECTS_CARD{
   margin-top: 160px;
@@ -457,6 +482,7 @@ footer li a{
   }
 
   #TOP_NAV{
+    z-index: 3000;
     padding: 5px;
   }
 
@@ -473,7 +499,6 @@ footer li a{
     background-color: #1967d2;
     text-align: center;
     max-width: 100%;
-    /* padding: 30px; */
     border-bottom: 1px solid rgba(168, 166, 166, 0.662);
     border-radius: 0;
     box-shadow: none;
@@ -504,5 +529,40 @@ footer li a{
     background-repeat: no-repeat;
     background-size: 400px 300px;
     background-position: center 190px;
+  }
+
+  .techs-card-header{
+    display: block;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+  
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #ececec;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0 ;
+  }
+
+  .single-flex-div .card-footer{
+    column-gap: 15px;
+    height: 60px;
+    background-color: #ffffff00;
+    border-radius: 0;
+  }
+
+  .single-flex-div{
+    padding-bottom: 60px !important;
+  }
+
+  .mobile-none{
+    display: none !important;
   }
 }
