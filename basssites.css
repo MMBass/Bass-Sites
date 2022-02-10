@@ -29,7 +29,7 @@ body, html{
     min-height: 800px;
     height: fit-content;
     padding-bottom: 80px;
-    background: url(https://firebase.google.com/images/homepage/hero-illo_2x.png) linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
+    background:linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
     text-align: right;
 }
 
