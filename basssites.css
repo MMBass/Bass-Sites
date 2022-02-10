@@ -107,6 +107,7 @@ h2, h3{
 h4{
   color: rgb(59, 59, 59);
   font-size: 30px;
+  margin-bottom: 60px;
 }
 
 .banner{
@@ -356,11 +357,15 @@ h4{
 
 #PROJECTS_CARD{
   margin-top: 160px;
-  padding-top: 40;
+  padding-top: 40px;
 }
 
 #PROJECTS_CARD .card-logo{
   margin-bottom: 40px;
+}
+
+#TECHS_CARD .flex-cards{
+  margin-bottom: 55px;
 }
 
 .inner-btn{
@@ -372,6 +377,11 @@ h4{
   font-size: 18px;
   font-weight: 600px;
   border-radius: 12px;
+}
+
+.inner-btn-wrapper{
+  margin-top: 45px;
+
 }
 
 .inner-btn i{
