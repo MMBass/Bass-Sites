@@ -1,6 +1,6 @@
 body{
     direction: ltr; /* TODO change in He*/
-    background-color: #E75802;
+    background-color: #7670C6;
 }
 
 #BUTTONS_AREA a{
@@ -27,8 +27,8 @@ body{
     height: fit-content;
     padding-bottom: 80px;
     text-align: center;
-    background: #E75802;
-    background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
+    background: #7670C6;
+    background: linear-gradient(165deg, #7670C6 70%, rgba(239,242,239,1) 30%);
 }
 
 .wp-links{

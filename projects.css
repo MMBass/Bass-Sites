@@ -1,20 +1,20 @@
 body{
-    background-color: #7670C6;
+    background-color: #E75802;
 }
 
 h4{
-   color: rgb(100 95 162);
+   color: rgb(133 133 133);
 }
 
 #MAIN_DIV{
-    background: #7670C6;
-    background: linear-gradient(165deg, #7670C6 70%, rgba(239,242,239,1) 30%);
+    background: #E75802;
+    background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
 }
 
 .white-cards{
   width: 85%;
   padding: 1px 40px 80px 40px;
-  background-color: #ffffffdc;
+  background-color: #fffffff5;
 }
 
 .white-cards .card-logo{
@@ -44,17 +44,18 @@ h4{
 }
 
 #BG_IMG{
+    padding-top: 240px;
     background: url(./images/bg-img-wp.png);
     background-repeat: no-repeat;
-    background-size: 900px 700px;
-    background-position: left -180px;
+    background-size: 700px 525px;
+    background-position: -110px -115px;
   }
 
 @media only screen and (max-width: 600px) {
 
     .white-cards{
         width: unset;
-        background-color: #ffffffea;
+        background-color: #fffffff5;
     }
 
     .flex-cards{

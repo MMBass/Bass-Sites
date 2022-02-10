@@ -1,6 +1,6 @@
 body{
     direction: rtl;
-    background-color: #E75802;
+    background-color: #7670C6;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
@@ -40,8 +40,8 @@ body{
     height: fit-content;
     padding-bottom: 80px;
     text-align: left;
-    background: #E75802;
-    background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
+    background: #7670C6;
+    background: linear-gradient(165deg, #7670C6 70%, rgba(239,242,239,1) 30%);
 }
 
 .wp-links{
@@ -75,6 +75,11 @@ body{
     background-position: -150px top;
 }
 
+.white-cards p{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     #MAIN_H_TWO{
         margin-top: 35px;
@@ -103,5 +108,6 @@ body{
         background-repeat: no-repeat;
         background-size: 400px 300px;
         background-position: center 225px;
-      }
+    }
+    
 }
