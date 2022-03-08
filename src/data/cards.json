@@ -1,0 +1,37 @@
+{
+    "wp-plugins": [
+        {
+            "title": "Browser Address Bar Color",
+            "he-title": "Browser Address Bar Color",
+            "desc": [
+                "Paint the top address bar of a selected page,",
+                "You can choose every page different color."
+            ],
+            "he-desc": [
+                "Paint the top address bar of a selected page,",
+                "You can choose every page different color."
+            ],
+            "img": "babc-logo.jpeg",
+            "file": "https://downloads.wordpress.org/plugin/browser-address-bar-color.1.0.zip",
+            "home-page": "https://wordpress.org/plugins/browser-address-bar-color/"
+        },
+        {
+            "title": "Pages List Preview",
+            "he-title": "Pages List Preview",
+            "desc": [
+                "Image preview for every page in wp admin pages list,",
+                "No need to click 'View' anymore."
+            ],
+            "he-desc": [
+                "Image preview for every page in wp admin pages list,",
+                "No need to click 'View' anymore."
+            ],
+            "img": "plp-logo.jpeg",
+            "file": "https://downloads.wordpress.org/plugin/page-list-preview.1.0.0.zip",
+            "home-page": "https://wordpress.org/plugins/page-list-preview/"
+        }
+    ],
+    "ourCustomers":[],
+    "otherProjects":[],
+    "techs":[]
+}
