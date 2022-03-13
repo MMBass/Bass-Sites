@@ -25,6 +25,7 @@ h4{
     transition: .2s ease;
     backface-visibility: hidden;
     background-color: cadetblue;
+    border-radius: 5px;
 }
 
 .card-logo:hover{
