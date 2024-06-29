@@ -1,5 +1,5 @@
 body{
-    background-color: #E75802;
+    background-color: #ffceaf;
 }
 
 h4{
@@ -7,9 +7,14 @@ h4{
    margin-top: 50px;
 }
 
+#TOP_NAV{
+    z-index: 99999;
+    /* padding: 5px; */
+}
+
 #MAIN_DIV{
-    background: #E75802;
-    background: linear-gradient(165deg, #E75802 70%, rgba(239,242,239,1) 30%);
+    background: #ffceaf;
+    background: linear-gradient(165deg, #ffceaf 70%, #fefaf8 30%);
 }
 
 .white-cards{

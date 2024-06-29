@@ -452,7 +452,7 @@ footer li a{
 
   #MAIN_DIV{
     background: rgb(30,105,205);
-    background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgba(239,242,239,1) 30%);
+    background: linear-gradient(165deg, rgba(30,105,205,1) 70%, rgb(248, 251, 255) 30%);
   }
 
   #BG_IMG{
